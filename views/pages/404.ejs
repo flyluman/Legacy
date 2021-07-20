@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+
+    <title>404</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="/" class="nav_logo">Luman Rahman</a>
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="/" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#signature" class="nav_link">Digital Signature</a></li>
+                    <li class="nav_item"><a href="#gallery" class="nav_link">Gallery</a></li>
+                    <li class="nav_item"><a href="#messenger" class="nav_link">Messenger</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'>≡</i>
+            </div>
+        </nav>
+
+        <style>
+            * {
+                transition: all 0.6s;
+            }
+
+            html {
+                height: 100%;
+            }
+
+            body {
+                font-family: 'Lato', sans-serif;
+                color: #888;
+                margin: 0;
+            }
+
+            #main {
+                display: table;
+                width: 100%;
+                height: 100vh;
+                text-align: center;
+            }
+
+            .fof {
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+            .fof h1 {
+                font-size: 50px;
+                display: inline-block;
+                padding-right: 12px;
+                animation: type .5s alternate infinite;
+            }
+
+            a {
+                color: #0060B6;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #00A0C6;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            @keyframes type {
+                from {
+                    box-shadow: inset -3px 0px 0px #888;
+                }
+
+                to {
+                    box-shadow: inset -3px 0px 0px transparent;
+                }
+            }
+
+            @media (max-width: 768px) {
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        </style>
+    </header>
+
+    <div id="main">
+        <div class="fof">
+            <h1>Error 404</h1>
+        </div>
+    </div>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p>the noob project...</p>
+    </footer>
+
+</body>
+
+</html>
